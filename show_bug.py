@@ -68,12 +68,12 @@ def delete_records(sz_factory: SzAbstractFactory):
 
 try:
 
-    # Create factory.
+    # Create abstract factory.
 
     SETTINGS = os.getenv("SENZING_ENGINE_CONFIGURATION_JSON", "{}")
     sz_factory = SzAbstractFactoryCore(INSTANCE_NAME, SETTINGS, verbose_logging=False)
 
-    # Add Data sources.
+    # Add Data sources to Senzing repository.
 
     add_datasources(sz_factory)
 
