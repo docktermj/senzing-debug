@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "configmanager",
+    "CONFIGPATH",
+    "LICENSESTRINGBASE",
+    "RESOURCEPATH",
+    "senzing",
+    "SUPPORTPATH",
+    "testdata",
+    "WATCHLIST",
+    "wraperror"
+  ],
+  "ignorePaths": [
+    ".git/*",
+    ".github/linters/.golangci.yaml",
+    ".gitignore",
+    ".history/*",
+    "Makefile"
+  ]
+}
