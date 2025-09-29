@@ -9,6 +9,12 @@
     cd senzing-debug
     ```
 
+1. Checkout the branch containing the bug recreation.
+
+    ```console
+    git checkout 1-dockter-1
+    ```
+
 1. Copy Sqlite database with Senzing schema and configuration.
 
     ```console
